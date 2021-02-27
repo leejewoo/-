@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+<head>
+  <h1><a href="index.html">이제우</a></h1>
+  <h2>연혁</h2>
+</head>
+
+<body>
+  <h2>해외여행</h2>
+  <h3>코타키나발루</h3>
+  <p>호상이, 남호와 첫 해외여행을 갔다.
+
+  </p>
+<video src="코타키나발루.mp4" width="200" height="160" controls>
+  재생할 수 없음.</video>
+  <h2>Favorite Food</h2>
+  <form>
+    <label for="trip">당신이 가장 가고 싶은곳은?</label>
+    <select id="trip" name="trip">
+      <option value="일본">일본</option>
+      <option value="중국">중국</option>
+      <option value="대만">대만</option>
+      <option value="미국">미국</option>
+    </select>
+    <label for="city">가장 돈이 많이 드는곳</label>
+    <input type="text" list="cities" id="city" name="city">
+      <datalist id="cities">
+        <option value="일본"></option>
+        <option value="중국"></option>
+        <option value="대만"></option>
+        <option value="미국"></option>
+      </datalist>
+    <table border="1">
+      <tbody>
+        <thead> <!--그냥 sectioning한것-->
+        <tr>
+          <th></th>
+          <th scope="col">1st</th>
+          <th scope="col">2nd</th>
+        </tr>
+      </thead>
+        <tr>
+          <th scope="row">한식</th>
+          <td>김치찌개</td>
+          <td>청국장</td>
+        </tr>
+        <tr>
+          <th scope="row">야식</th>
+          <td style="color:red;">치킨</td>
+          <td>족발</td>
+        </tr>
+        <tfoot> <!--그냥 sectioning한것-->
+        <tr>
+          <th scope="row">양식</th>
+          <td colspan="2">스테이크</td>
+        </tr>
+      </tfoot>
+      </tbody>
+
+
+    </table>
+
+
+
+</body>
+</html>
